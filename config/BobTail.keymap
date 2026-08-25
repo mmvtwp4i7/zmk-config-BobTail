@@ -99,10 +99,10 @@
 
         NUM {
             bindings = <
-&kp LS(C_BRI_DEC)  &kp C_BRI_UP            &none         &kp LS(K_VOLUME_DOWN)    &kp LS(K_VOLUME_UP)                           &none          &kp LA(LG(LEFT_ARROW))  &kp F3        &kp LA(LG(RIGHT_ARROW))  &none
-&kp SQT            &kp LA(LG(LEFT_ARROW))  &none         &kp LA(LG(RIGHT_ARROW))  &kp LG(LS(NUMBER_3))  &none       &kp LS(GT)  &kp PAGE_UP    &kp RG(LEFT_BRACKET)    &kp UP_ARROW  &kp RG(RIGHT_BRACKET)    &kp RG(UP_ARROW)
-&trans             &none                   &none         &kp LS(SLASH)            &kp SEMI              &trans      &trans      &kp PAGE_DOWN  &kp LEFT_ARROW          &kp DOWN      &kp RIGHT_ARROW          &kp RG(DOWN_ARROW)
-&bt BT_SEL 1       &bt BT_SEL 2            &bt BT_SEL 3  &trans                   &trans                &trans      &trans      &trans                                                                        &none
+&kp C_BRI_DEC  &kp C_BRI_UP            &none         &kp K_VOLUME_DOWN        &kp K_VOLUME_UP                           &none          &kp LA(LG(LEFT_ARROW))  &kp F3        &kp LA(LG(RIGHT_ARROW))  &none
+&kp SQT        &kp LA(LG(LEFT_ARROW))  &none         &kp LA(LG(RIGHT_ARROW))  &kp LG(LS(NUMBER_3))  &none       &none   &kp PAGE_UP    &kp RG(LEFT_BRACKET)    &kp UP_ARROW  &kp RG(RIGHT_BRACKET)    &kp RG(UP_ARROW)
+&trans         &none                   &none         &kp LS(SLASH)            &kp SEMI              &trans      &trans  &kp PAGE_DOWN  &kp LEFT_ARROW          &kp DOWN      &kp RIGHT_ARROW          &kp RG(DOWN_ARROW)
+&bt BT_SEL 1   &bt BT_SEL 2            &bt BT_SEL 3  &trans                   &trans                &trans      &trans  &trans                                                                        &none
             >;
         };
 
