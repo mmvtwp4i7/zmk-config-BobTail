@@ -51,6 +51,16 @@
             bindings = <&mkp MB2>;
             key-positions = <19 20>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 0>;
+        };
+
+        kuten {
+            bindings = <&kp PERIOD>;
+            key-positions = <2 3>;
+        };
     };
 
     behaviors {
