@@ -90,17 +90,17 @@
 
         FUNCTION {
             bindings = <
-&kp SINGLE_QUOTE  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp COMMA         &kp MINUS                             &kp PERCENT   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
-&kp TILDE         &kp LS(N9)      &kp LS(N0)        &kp SLASH         &kp LG(SEMI)  &none       &none       &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK
-&trans            &kp LESS_THAN   &kp GREATER_THAN  &kp LS(NUMBER_1)  &kp COLON     &none       &none       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_PLUS
-&none             &none           &trans            &trans            &trans        &trans      &kp DELETE  &trans                                                  &kp KP_MINUS
+&kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA         &kp MINUS                             &kp PERCENT   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH
+&kp TILDE         &kp LS(N9)        &kp LS(N0)         &kp SLASH         &kp LG(SEMI)  &none       &none       &kp PERIOD    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK
+&trans            &kp LESS_THAN     &kp GREATER_THAN   &kp LS(NUMBER_1)  &kp COLON     &none       &none       &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MINUS
+&none             &none             &trans             &trans            &trans        &trans      &kp DELETE  &trans                                                  &kp KP_PLUS
             >;
         };
 
         NUM {
             bindings = <
 &kp LS(C_BRI_DEC)  &kp C_BRI_UP            &none         &kp LS(K_VOLUME_DOWN)    &kp LS(K_VOLUME_UP)                           &none          &kp LA(LG(LEFT_ARROW))  &kp F3        &kp LA(LG(RIGHT_ARROW))  &none
-&kp SQT            &kp LA(LG(LEFT_ARROW))  &none         &kp LA(LG(RIGHT_ARROW))  &kp LG(LS(NUMBER_3))  &none       &kp LS(GT)  &kp PAGE_UP    &kp LS(RPAR)            &kp UP_ARROW  &kp LS(RBRC)             &kp RG(UP_ARROW)
+&kp SQT            &kp LA(LG(LEFT_ARROW))  &none         &kp LA(LG(RIGHT_ARROW))  &kp LG(LS(NUMBER_3))  &none       &kp LS(GT)  &kp PAGE_UP    &kp RG(LEFT_BRACKET)    &kp UP_ARROW  &kp RG(RIGHT_BRACKET)    &kp RG(UP_ARROW)
 &trans             &none                   &none         &kp LS(SLASH)            &kp SEMI              &trans      &trans      &kp PAGE_DOWN  &kp LEFT_ARROW          &kp DOWN      &kp RIGHT_ARROW          &kp RG(DOWN_ARROW)
 &bt BT_SEL 1       &bt BT_SEL 2            &bt BT_SEL 3  &trans                   &trans                &trans      &trans      &trans                                                                        &none
             >;
