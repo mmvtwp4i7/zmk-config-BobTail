@@ -38,7 +38,7 @@
         };
 
         katanaka {
-            bindings = <&kp LANG_KATAKANA>;
+            bindings = <&kp RC(K)>;
             key-positions = <7 8>;
         };
 
