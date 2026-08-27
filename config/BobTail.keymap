@@ -61,18 +61,6 @@
             bindings = <&kp PERIOD>;
             key-positions = <2 3>;
         };
-
-        bt_0 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <9 21>;
-            layers = <2>;
-        };
-
-        bt_1 {
-            bindings = <&bt BT_SEL 0>;
-            key-positions = <21 33>;
-            layers = <2>;
-        };
     };
 
     behaviors {
@@ -114,16 +102,16 @@
 &kp C_BRI_DEC  &kp C_BRI_UP            &none  &kp K_VOLUME_DOWN        &kp K_VOLUME_UP                      &none          &kp LA(LG(LEFT_ARROW))  &kp F3        &kp LA(LG(RIGHT_ARROW))  &none
 &kp SQT        &kp LA(LG(LEFT_ARROW))  &none  &kp LA(LG(RIGHT_ARROW))  &none            &none       &none   &kp PAGE_UP    &kp RG(LEFT_BRACKET)    &kp UP_ARROW  &kp RG(RIGHT_BRACKET)    &kp RG(UP_ARROW)
 &none          &none                   &none  &none                    &none            &trans      &none   &kp PAGE_DOWN  &kp LEFT_ARROW          &kp DOWN      &kp RIGHT_ARROW          &kp RG(DOWN_ARROW)
-&none          &none                   &none  &trans                   &trans           &trans      &trans  &trans                                                                        &bt BT_CLR_ALL
+&none          &none                   &none  &trans                   &trans           &trans      &trans  &trans                                                                        &none
             >;
         };
 
         ARROW {
             bindings = <
-&none   &kp Q   &kp W   &none   &none                       &none   &none  &none  &none   &none
-&none   &kp A   &kp S   &kp D   &none   &none       &none   &kp H   &kp J  &kp K  &kp L   &none
-&trans  &kp Z   &kp X   &kp C   &kp V   &trans      &trans  &none   &none  &none  &trans  &trans
-&to 0   &trans  &trans  &trans  &trans  &trans      &trans  &trans                        &trans
+&none   &kp Q   &kp W   &none   &bt BT_CLR_ALL                                  &none   &none  &none  &none   &none
+&none   &kp A   &kp S   &kp D   &none           &none             &none         &kp H   &kp J  &kp K  &kp L   &none
+&trans  &kp Z   &kp X   &kp C   &kp V           &bt BT_SEL 1      &bt BT_SEL 0  &none   &none  &none  &trans  &trans
+&to 0   &trans  &trans  &trans  &trans          &trans            &trans        &trans                        &trans
             >;
         };
 
