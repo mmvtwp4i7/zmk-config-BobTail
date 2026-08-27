@@ -94,7 +94,7 @@
 &kp Q           &kp L  &kp U             &kp COMMA                &kp MINUS                                                &kp F        &kp W  &kp R  &kp Y  &kp P
 &kp E           &kp I  &kp A             &kp O                    &kp TAB      &none                     &kp RS(SLASH)     &kp K        &kp T  &kp N  &kp S  &mt RIGHT_GUI H
 &kp LEFT_SHIFT  &kp Z  &kp X             &kp C                    &kp V        &kp LG(LS(NUMBER_3))      &kp RS(NUMBER_1)  &kp G        &kp D  &kp M  &kp J  &mt RIGHT_SHIFT B
-&none           &none  &kp LEFT_CONTROL  &mt LEFT_GUI LANGUAGE_2  &lt 1 SPACE  &lt 2 LANG1               &kp BACKSPACE     &lt 2 ENTER                       &mo 3
+&none           &none  &kp LEFT_CONTROL  &mt LEFT_GUI LANGUAGE_2  &lt 1 SPACE  &lt 2 LANG1               &kp BACKSPACE     &lt 2 ENTER                       &to 3
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -125,7 +125,7 @@
 &kp Q   &kp W   &kp E   &kp R   &kp T                       &kp Y   &kp U  &kp I  &kp O   &kp P
 &kp A   &kp S   &kp D   &kp F   &kp G   &none       &none   &kp H   &kp J  &kp K  &kp L   &trans
 &trans  &kp Z   &kp X   &kp C   &kp V   &trans      &trans  &kp B   &kp N  &kp M  &trans  &trans
-&mo 0   &trans  &trans  &trans  &trans  &trans      &trans  &trans                        &trans
+&to 0   &trans  &trans  &trans  &trans  &trans      &trans  &trans                        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
