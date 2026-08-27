@@ -65,11 +65,13 @@
         bt_0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <9 21>;
+            layers = <2>;
         };
 
         bt_1 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <21 33>;
+            layers = <2>;
         };
     };
 
